@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+body {
+  background: rgba(255, 144, 14, 0.1);
+}
+/* navbar design */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  padding-left: 228px;
+  padding-top: 50px;
+  font-weight: 700;
+  font-size: 35px;
+}
+.options ul {
+  list-style: none;
+  display: flex;
+  padding-right: 240px;
+  padding-top: 63px;
+}
+.options ul li {
+  padding: 10px;
+}
+.options ul li a {
+  text-decoration: none;
+  color: #424242;
+  font-weight: 500;
+  font-size: 18px;
+}
