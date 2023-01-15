@@ -311,11 +311,47 @@ footer {
     width: 550px;
   }
 
-  .some-facts,
-  .info-box,
-  .sponsors,
-  .logos,
+  /* some-facts  */
+  .some-facts {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1px;
+    align-items: center;
+  }
+
+  .some-facts-secondary {
+    width: 350px;
+    text-align: center;
+  }
+
+  /* info-box */
+  .info-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hover-box {
+    margin: 10px;
+  }
+
+  /* sponsors */
+
+  /* logos */
+  .logos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logos img {
+    width: 200px;
+    margin: 25px;
+  }
   footer {
-    display: none;
+    width: 400px;
+    height: 100px;
+    border: none;
+    border-radius: 8px;
+
+    margin: 130px 100px;
+    /* padding-left: 10px; */
+    background-color: #fff4e7;
   }
 }
