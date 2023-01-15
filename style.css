@@ -7,7 +7,9 @@
 
 /* header design */
 header {
-  background: rgba(255, 144, 14, 0.1);
+  background-color: rgba(255, 144, 14, 0.1);
+  /* width: 100%;
+  height: 100%; */
 }
 
 /* navbar design */
@@ -246,4 +248,74 @@ footer {
   justify-content: center;
   margin: 130px 260px;
   background-color: #fff4e7;
+}
+
+/* Responsive Design */
+
+@media only screen and (max-width: 576px) {
+  header {
+    width: 100%;
+    height: 100%;
+  }
+  .texts {
+    width: 400px;
+  }
+  .banner {
+    width: 440px;
+    height: 300px;
+  }
+  .logo {
+    padding-left: 15px;
+  }
+  nav {
+    flex-direction: column;
+  }
+  .options ul {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 190px;
+  }
+  /* features */
+  .features {
+    display: flex;
+    flex-direction: column;
+  }
+  .feature-photos {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+  .feature-texts {
+    margin-top: 30px;
+    padding-left: 145px;
+    width: 230px;
+  }
+
+  /* more-features section */
+  .more-features {
+    display: flex;
+    flex-direction: column;
+    margin-top: 130px;
+    padding-left: 1px;
+  }
+  .more-feature-texts {
+    padding-left: 50px;
+    width: 400px;
+  }
+  .more-feature-box {
+    width: 400px;
+  }
+  .more-feature-picture img {
+    margin-top: 55px;
+    height: 700px;
+    width: 550px;
+  }
+
+  .some-facts,
+  .info-box,
+  .sponsors,
+  .logos,
+  footer {
+    display: none;
+  }
 }
