@@ -193,5 +193,23 @@ main {
 .hover-box {
   width: 200px;
   height: 200px;
-  border: 2px solid red;
+  border: 2px solid #ff900e;
+  text-align: center;
+}
+.hover-box:hover {
+  border-color: transparent;
+  background-color: transparent;
+}
+a {
+  text-decoration: none;
+  color: #131313;
+}
+.primary {
+  font-size: 35px;
+}
+.secondary {
+  font-size: 12px;
+}
+.box-items {
+  padding-top: 60px;
 }
