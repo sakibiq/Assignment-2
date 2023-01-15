@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
 }
+
 body {
   background: rgba(255, 144, 14, 0.1);
 }
@@ -33,4 +34,38 @@ nav {
   color: #424242;
   font-weight: 500;
   font-size: 18px;
+}
+
+/* Main Part design */
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 116px;
+}
+.texts {
+  width: 700px;
+  text-align: center;
+  padding-bottom: 32px;
+}
+.main-text {
+  padding-bottom: 20px;
+}
+.btn {
+  width: 180px;
+  height: 64px;
+  background-color: #ff900e;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.banner {
+  width: 1440px;
+  height: 700px;
+  padding-top: 50px;
+  border-radius: 8px;
 }
