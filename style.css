@@ -252,7 +252,11 @@ footer {
 
 /* Responsive Design */
 
+/* ------------------------------ mobile layout --------------------------------*/
 @media only screen and (max-width: 576px) {
+  * {
+    box-sizing: border-box;
+  }
   header {
     width: 100%;
     height: 100%;
@@ -288,7 +292,8 @@ footer {
   .feature-texts {
     margin-top: 30px;
     padding-left: 145px;
-    width: 230px;
+    /* width: 400px; */
+    padding-right: 130px;
   }
 
   /* more-features section */
@@ -299,16 +304,17 @@ footer {
     padding-left: 1px;
   }
   .more-feature-texts {
-    padding-left: 50px;
+    padding-left: 80px;
     width: 400px;
   }
   .more-feature-box {
     width: 400px;
+    height: 140px;
   }
   .more-feature-picture img {
-    margin-top: 55px;
+    margin-top: 10px;
     height: 700px;
-    width: 550px;
+    width: 600px;
   }
 
   /* some-facts  */
@@ -351,7 +357,9 @@ footer {
     border-radius: 8px;
 
     margin: 130px 100px;
-    /* padding-left: 10px; */
+
     background-color: #fff4e7;
   }
 }
+
+/* ------------------------- ipad layout ---------------------- */
