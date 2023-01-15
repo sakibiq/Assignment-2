@@ -248,6 +248,7 @@ footer {
   justify-content: center;
   margin: 130px 260px;
   background-color: #fff4e7;
+  font-size: 20px;
 }
 
 /* Responsive Design */
@@ -418,7 +419,7 @@ footer {
     padding-left: 1px;
   }
   .more-feature-texts {
-    padding-left: 120px;
+    padding-left: 150px;
     width: 600px;
   }
   .more-feature-box {
@@ -429,7 +430,7 @@ footer {
     margin-top: 10px;
     height: 700px;
     width: 700px;
-    padding-left: 150px;
+    padding-left: 200px;
   }
 
   /* some-facts  */
@@ -466,7 +467,7 @@ footer {
     margin: 25px;
   }
   footer {
-    width: 700px;
+    width: 750px;
     height: 100px;
     border: none;
     border-radius: 8px;
