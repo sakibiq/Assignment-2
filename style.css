@@ -5,10 +5,13 @@
   font-family: 'Work Sans', sans-serif;
 }
 
-body {
+/* header design */
+header {
   background: rgba(255, 144, 14, 0.1);
 }
+
 /* navbar design */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -68,4 +71,50 @@ main {
   height: 700px;
   padding-top: 50px;
   border-radius: 8px;
+}
+
+/* Feature section */
+.features {
+  margin-top: 85px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 73px;
+}
+
+.feature-photos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px 24px;
+  padding-left: 301px;
+}
+
+.feature-texts {
+  padding-right: 301px;
+}
+
+.feature-texts {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.feature-texts-primary {
+  font-size: 45px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+.text-color-gray {
+  color: #727272;
+}
+.text-color-black {
+  color: #131313;
+}
+.text-color-orange {
+  color: #ff900e;
+}
+.feature-texts-secondary {
+  padding-bottom: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #727272;
 }
